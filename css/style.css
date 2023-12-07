@@ -1,0 +1,69 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+} 
+
+
+header nav ul{
+    list-style-type: none;
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} 
+
+header>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+footer{
+    background-color: beige;
+} 
+article{
+    font-weight: bold;
+    color: rgb(90, 14, 161);
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    background-color: aquamarine;
+    margin: 25px;
+    padding: 25px;
+} 
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.productosenventa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+.precio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.page-header {
+    display: flex;
+    padding-left: 46px;
+    padding-bottom: 5px;
+    border-color: gray;
+}
